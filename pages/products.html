@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Products - Car King</title>
+    <link rel="stylesheet" href="../styles/style.css">
+</head>
+<body>
+    <header>
+        <a href="../index.html">
+            <img src="../images/logo.png" class="logo" alt="Car King Logo">
+        </a>
+
+        <h1 class="site-title">Car King</h1>
+
+        <nav>
+            <button class="hamburger" aria-label="Toggle menu" >
+                <span></span>
+                <span></span>
+                <span></span>
+            </button>
+
+            <ul class="menu">
+                <li><a href="../index.html">Home Page</a></li>
+                <li><a href="contact.html">Contact Us</a></li>
+                <li><strong>Dark Mode</strong></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main class="product-page">
+        <h2>Our Products</h2>
+        <h3 id="filter-heading">Product Filters</h3>
+        <section class="filters">
+            <div class="filter-group">
+                <label for="searchInput">Search products</label>
+                <input type="text" id="searchInput" placeholder="Search products...">
+            </div>
+
+            <div class="filter-group">
+                <label for="categoryFilter">Filter by Category</label>
+                <select id="categoryFilter">
+                    <option value="">All Categories</option>
+                    <option value="Car Battery">Car Battery</option>
+                    <option value="Jumper Cables">Jumper Cables</option>
+                    <option value="Engine Oil">Engine Oil</option>
+                    <option value="Tires">Tires</option>
+                </select>
+            </div>
+
+            <div class="filter-group">
+                <label for="maxPrice">Maximum Price</label>
+                <input type="number" id="maxPrice" placeholder="Max Price">
+            </div>
+
+            <div class="filter-group">
+                <label for="ratingFilter">Filter by Rating</label>
+                <select id="ratingFilter">
+                    <option value="">All Ratings</option>
+                    <option value="5">5 Stars</option>
+                    <option value="4">4 Stars</option>
+                    <option value="3">3 Stars</option>
+                    <option value="2">2 Stars</option>
+                    <option value="1">1 Star</option>
+                </select>
+            </div>
+
+            <div class="filter-group">
+                <label for="minPrice">Minimum Price</label>
+                <input type="number" id="minPrice" placeholder="Min Price">
+            </div>
+
+            <div class="filter-group">
+                <label for="sortSelect">Sort Products</label>
+                <select id="sortSelect">
+                    <option value="">Sort By</option>
+                    <option value="name-asc">Name A-Z</option>
+                    <option value="name-desc">Name Z-A</option>
+                    <option value="price-asc">Price Low-High</option>
+                    <option value="price-desc">Price High-Low</option>
+                    <option value="rating-asc">Rating Low-High</option>
+                    <option value="rating-desc">Rating High-Low</option>
+                </select>
+            </div>
+        </section>
+
+        <section id="productGrid" class="product-grid" >
+            <!-- products -->
+        </section>
+    </main>
+
+    <footer>
+            <div class="footer-text">
+                <p>Car King | Housh Abbaszadeh </p>
+            </div>
+
+            <div class="link-group">
+
+                <button class="footer-link" onclick="openIG()"></a>
+                    <img class="footer-icon" src="../images/social_media/IG.png" alt="Instagram Logo"> 
+                </button>
+
+                <button class="footer-link" onclick="openFB()">
+                    <img class="footer-icon" src="../images/social_media/FB.png" alt="Facebook Logo"> 
+                </button>
+                
+                <button class="footer-link" onclick="openLI()">
+                    <img class="footer-icon" src="../images/social_media/LI.png" alt="LinkedIn Logo"> 
+                </button>
+
+            </div>
+    </footer>
+
+    <script src="../scripts/global.js"></script>
+    <script src="../scripts/products.js"></script>
+</body>
+</html>

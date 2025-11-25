@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Home Page</title>
+    <link rel="stylesheet" href="styles/style.css">
+</head>
+<body>
+<header>
+        <div class="logo-container">
+            <a href="../index.html">
+                <img src="../images/logo.png" class="logo" alt="Car King Logo">
+            </a>
+        </div>
+
+        <h1 class="site-title">Car King</h1>
+
+        <nav>
+            <button class="hamburger" aria-label="Toggle menu" >
+                <span></span>
+                <span></span>
+                <span></span>
+            </button>
+
+            <ul class="menu">
+                <li><a href="pages/products.html">Our Products</a></li>
+                <li><a href="pages/contact.html">Contact Us</a></li>
+                <li><strong>Dark Mode</strong></li>
+            </ul>
+        </nav>
+    </header>
+
+        <img class="hero" src="images/hero_image.avif" alt="Car King Hero Image">
+        <div class="hero-text">
+            <h2>Our car parts are fit for Royalty!</h2>
+            <button class="browse-products"><a class="cta-btn" href="pages/products.html">Browse Products</a></button>
+        </div>
+
+        <section class="promotions">
+        <div class="promo-card">
+            <h3>Seasonal Discounts</h3>
+            <p>Save big during our limited-time seasonal sales.</p>
+            <img src="images/promos/promo1.jpg" class="promo-img" alt="holiday promo image">
+        </div>
+
+        <div class="promo-card">
+            <h3>Free Shipping</h3>
+            <p>Free shipping on all orders over $99.</p>
+            <img src="images/promos/promo2.png" class="promo-img">
+        </div>
+
+        <div class="promo-card">
+            <h3>Best-Selling Parts</h3>
+            <p>Our most-trusted and top-rated parts.</p>
+            <img src="images/promos/promo.jpg" class="best-selling-promo-img">
+        </div>
+
+        <div class="promo-card">
+            <h3>New Arrivals</h3>
+            <p>Fresh inventory added every week.</p>
+            <img src="images/promos/promo3.jpg" class="promo-img">
+        </div>
+    </section>
+
+
+    <footer>
+            <div class="footer-text">
+                <p>Car King | Housh Abbaszadeh </p>
+            </div>
+
+            <div class="link-group">
+
+                <button class="footer-link" onclick="openIG()"></a>
+                    <img class="footer-icon" src="../images/social_media/IG.png" alt="Instagram Logo"> 
+                </button>
+
+                <button class="footer-link" onclick="openFB()">
+                    <img class="footer-icon" src="../images/social_media/FB.png" alt="Facebook Logo"> 
+                </button>
+                
+                <button class="footer-link" onclick="openLI()">
+                    <img class="footer-icon" src="../images/social_media/LI.png" alt="LinkedIn Logo"> 
+                </button>
+
+            </div>
+    </footer>
+
+    <script src="scripts/global.js"></script>
+</body>
+</html>

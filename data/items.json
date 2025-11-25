@@ -1,0 +1,130 @@
+[
+  {
+    "name": "Car Part 1",
+    "price": 50.00,
+    "image": "../images/car_parts/battery1.png",
+    "rating": 4.0,
+    "description": "This high-quality car part will help improve the performance of your vehicle. Durable and easy to install, it's perfect for a quick upgrade.",
+    "category": "Car Battery"
+  },
+  {
+    "name": "Car Part 2",
+    "price": 120.00,
+    "image": "../images/car_parts/battery2.png",
+    "rating": 4.0,
+    "description": "Designed to provide excellent performance, this part is a must-have for any car enthusiast. Upgrade your ride with a top-quality component.",
+    "category": "Car Battery"
+  },
+  {
+    "name": "Car Part 3",
+    "price": 80.00,
+    "image": "../images/car_parts/battery3.png",
+    "rating": 4.0,
+    "description": "Increase your car's efficiency with this precision-engineered part. Perfect for enhancing the overall driving experience.",
+    "category": "Car Battery"
+  },
+  {
+    "name": "Car Part 4",
+    "price": 40.00,
+    "image": "../images/car_parts/jumper_cables.jpeg",
+    "rating": 4.0,
+    "description": "This affordable and reliable part is an ideal replacement for your old, worn-out component. Ensure a smoother ride without breaking the bank.",
+    "category": "Jumper Cables"
+  },
+  {
+    "name": "Car Part 5",
+    "price": 99.00,
+    "image": "../images/car_parts/jumper_cables2.jpeg",
+    "rating": 4.0,
+    "description": "Upgrade your vehicle with this high-performance car part. Built for strength and durability, it's perfect for long-lasting use.",
+    "category": "Jumper Cables"
+  },
+  {
+    "name": "Car Part 6",
+    "price": 200.00,
+    "image": "../images/car_parts/oil.png",
+    "rating": 4.0,
+    "description": "Get the most out of your car with this premium quality part. Engineered for precision, it will make a significant difference in your ride.",
+    "category": "Engine Oil"
+  },
+  {
+    "name": "Car Part 7",
+    "price": 59.00,
+    "image": "../images/car_parts/oil1.jpg",
+    "rating": 4.0,
+    "description": "Affordable yet durable, this car part provides a perfect solution for repairs or upgrades. It's designed for easy installation and long-term use.",
+    "category": "Engine Oil"
+  },
+  {
+    "name": "Car Part 8",
+    "price": 129.00,
+    "image": "../images/car_parts/oil2.png",
+    "rating": 4.0,
+    "description": "A premium part designed for top-tier performance. Ideal for those who want to take their car's capabilities to the next level.",
+    "category": "Engine Oil"
+  },
+  {
+    "name": "Car Part 9",
+    "price": 70.00,
+    "image": "../images/car_parts/oil3.webp",
+    "rating": 4.0,
+    "description": "Ensure smooth operation with this cost-effective replacement part. It's engineered for a perfect fit, making installation hassle-free.",
+    "category": "Engine Oil"
+  },
+  {
+    "name": "Car Part 10",
+    "price": 110.00,
+    "image": "../images/car_parts/oil4.png",
+    "rating": 4.0,
+    "description": "Enhance your vehicle's functionality with this reliable part. Built for durability and designed to last through heavy use.",
+    "category": "Engine Oil"
+  },
+  {
+    "name": "Car Part 11",
+    "price": 55.00,
+    "image": "../images/car_parts/oil5.jpg",
+    "rating": 4.0,
+    "description": "This car part offers a blend of quality and affordability. A reliable option for ensuring smooth performance at a budget-friendly price.",
+    "category": "Engine Oil"
+  },
+  {
+    "name": "Car Part 12",
+    "price": 89.00,
+    "image": "../images/car_parts/oil6.png",
+    "rating": 4.0,
+    "description": "Upgrade your car's performance with this easy-to-install part. It's the perfect balance of functionality and affordability.",
+    "category": "Engine Oil"
+  },
+  {
+    "name": "Car Part 13",
+    "price": 250.00,
+    "image": "../images/car_parts/tire.jpeg",
+    "rating": 4.0,
+    "description": "A premium quality part designed for the most demanding drivers. Engineered for top-tier performance, it ensures a smooth and safe ride.",
+    "category": "Tires"
+  },
+  {
+    "name": "Car Part 14",
+    "price": 135.00,
+    "image": "../images/car_parts/tire1.png",
+    "rating": 4.0,
+    "description": "Perfect for serious car enthusiasts, this part offers unparalleled quality. It’s built to last, ensuring a reliable performance for years to come.",
+    "category": "Tires"
+  },
+  {
+    "name": "Car Part 15",
+    "price": 65.00,
+    "image": "../images/car_parts/tire2.jpg",
+    "rating": 4.0,
+    "description": "This high-performance car part ensures your vehicle runs at its best. Designed for easy installation and a perfect fit, it’s an essential upgrade.",
+    "category": "Tires"
+  },
+  {
+    "name": "Car Part 16",
+    "price": 45.00,
+    "image": "../images/car_parts/tire_set_of_4.png",
+    "rating": 3,
+    "description": "Get great value with this affordable replacement part. It’s designed to provide a reliable, long-lasting solution for your vehicle.",
+    "category": "Tires"
+  }
+]
