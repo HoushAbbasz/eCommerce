@@ -43,6 +43,15 @@ body.dark select p,
 body.dark textarea p {
   color: #eee;
 }
+body.dark .filters h3,
+body.dark .product-item h3,
+body.dark .promo-card h3,
+body.dark .product-card h3,
+body.dark input h3,
+body.dark select h3,
+body.dark textarea h3 {
+  color: #eee;
+}
 body.dark footer {
   background-color: #222;
   color: #eee;
@@ -286,7 +295,7 @@ footer {
   width: 40vw;
 }
 
-.hero-text {
+.about {
   text-align: center;
   position: absolute;
   top: 65vh;
@@ -534,7 +543,7 @@ input,
     width: 65%;
     left: 17.5%;
   }
-  .hero-text {
+  .about {
     top: 40vh;
     height: 30%;
     width: 65%;

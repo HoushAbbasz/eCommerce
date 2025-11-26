@@ -49,6 +49,9 @@ textarea {
     p{
       color: #eee;
     }
+    h3{
+      color:#eee;
+    }
 }
 
 footer {
@@ -319,7 +322,7 @@ footer {
 
 
 //HOME PAGE CSS START -------------------------------------------------------
-.hero-text{
+.about{
     text-align: center;
     position: absolute;
     top: 65vh;
@@ -585,7 +588,7 @@ footer {
     left: 17.5%;
   }
 
-  .hero-text{
+  .about{
     top: 40vh;
     height: 30%;
     width: 65%;
