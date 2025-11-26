@@ -27,6 +27,8 @@ document.addEventListener("DOMContentLoaded", () => {
 
 
     function renderProducts(products) {
+        // need to clear the old product cards each time for filtering reasons
+        productGrid.innerHTML = ""; 
         // performs HTML for each product in the products parameter 
         products.forEach(product => {
             // create a div 
