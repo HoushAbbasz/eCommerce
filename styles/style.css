@@ -23,16 +23,18 @@ body.dark .menu {
 body.dark .menu li button, body.dark .menu a {
   color: #eee;
 }
+body.dark .filters,
 body.dark .product-item,
 body.dark .promo-card,
 body.dark .product-card,
 body.dark input,
 body.dark select,
 body.dark textarea {
-  background-color: #1a1a1a;
+  background-color: #111;
   color: #eee;
   border-color: #444;
 }
+body.dark .filters p,
 body.dark .product-item p,
 body.dark .promo-card p,
 body.dark .product-card p,
@@ -58,7 +60,7 @@ header {
   align-items: center;
   background-color: #e3e3e3;
   border-radius: 25px;
-  z-index: 1;
+  z-index: 2;
 }
 
 nav {
@@ -74,7 +76,7 @@ nav {
   display: flex;
   align-items: center;
   justify-content: center;
-  z-index: 2;
+  z-index: 3;
 }
 nav.active .menu {
   opacity: 1;
@@ -146,6 +148,7 @@ footer {
   height: 4vh;
   width: 100vw;
   background-color: #e3e3e3;
+  z-index: 2;
 }
 
 .logo {
@@ -405,6 +408,7 @@ footer {
   justify-content: space-between;
   height: 380px;
   overflow: hidden;
+  z-index: 0;
 }
 
 .product-item:hover {
@@ -477,25 +481,21 @@ footer {
   background-color: #1a242f;
 }
 
-.product-filters {
-  display: flex;
-  gap: 10px;
-  margin: 15vh 20px;
-  flex-wrap: wrap;
-}
-
-.product-filters input,
+input,
 .product-filters select {
   padding: 8px;
   font-size: 16px;
 }
 
 .filters {
-  position: relative;
+  position: sticky;
+  background-color: #f4f4f4;
+  top: 8vh;
   padding: 0px;
   display: grid;
   grid-template-columns: repeat(2, 1fr);
   justify-items: center;
+  z-index: 1;
 }
 
 .filter-group {
@@ -583,6 +583,12 @@ footer {
   .promotions {
     margin: 120% auto 25% auto;
     grid-template-columns: 1fr;
+  }
+  .footer-text {
+    font-size: 0.75rem;
+  }
+  .site-title {
+    font-size: 1.75rem;
   }
 }
 

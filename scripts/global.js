@@ -21,16 +21,19 @@ function openLI (){
 
 const toggleBtn = document.getElementById("darkModeToggle");
 
-// Check saved preference
+// if dark mode is enabled in the local storage, add "dark" class to boday tag
 if (localStorage.getItem("darkMode") === "enabled") {
     document.body.classList.add("dark");
 }
 
-// Toggle when clicked
+// if toggleBtn exists, create an event listener
 if (toggleBtn) {
     toggleBtn.addEventListener("click", () => {
+        // removes/adds dark class to body tag
         document.body.classList.toggle("dark");
 
+        /*  if the body has a "dark" class, enable dark mode
+         in the local storage and change the buttun text to Light Mode*/
         if (document.body.classList.contains("dark")) {
             localStorage.setItem("darkMode", "enabled");
             toggleBtn.textContent = "Light Mode";
